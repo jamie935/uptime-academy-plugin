@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "uptime-academy": {
+      "url": "https://uptime-academy-mcp.vercel.app/mcp"
+    }
+  }
+}
