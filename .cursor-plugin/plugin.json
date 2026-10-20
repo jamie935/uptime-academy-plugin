@@ -1,0 +1,22 @@
+{
+  "name": "uptime-academy",
+  "displayName": "Uptime Academy",
+  "version": "1.0.1",
+  "description": "Personal learning for AI, work and life, with practical Uptime coaching and Hack recommendations.",
+  "author": {
+    "name": "Uptime"
+  },
+  "homepage": "https://www.uptime.app/",
+  "repository": "https://github.com/jamie935/uptime-academy-plugin",
+  "license": "MIT",
+  "logo": "assets/uptime.png",
+  "keywords": [
+    "ai",
+    "learning",
+    "coaching",
+    "leadership",
+    "wellbeing"
+  ],
+  "skills": "./skills",
+  "mcpServers": "./mcp.json"
+}
