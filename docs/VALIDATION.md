@@ -31,4 +31,4 @@ The following broader behaviours have not been tested in this candidate run:
 5. Check Academy call arguments for workspace files or editor context and confirm no website/coding task is executed.
 6. Test missing-cover text fallback and click a returned Hack link to verify its actual destination and membership behaviour.
 
-Marketplace submission and approval remain pending. Review the final public repository and listing, licence scope and permissions before publication.
+On 21 October 2026, the client-only repository was made public with the approved MIT licence scope, and Cursor acknowledged receipt of the marketplace application: “Thanks for applying” and “We've received your submission.” Marketplace review, approval and listing remain pending.
