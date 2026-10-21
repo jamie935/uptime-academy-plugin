@@ -4,7 +4,11 @@ Personal learning for AI, work and life, grounded in Uptime teaching and short H
 
 ## Setup
 
-Install the Uptime Academy plugin in Cursor, enable its `uptime-academy` MCP server, and use Cursor's authentication control to sign in to Uptime. Complete sign-in in the browser; never paste a password, code or token into chat. If access fails, reconnect the server in Cursor. This package connects to Uptime's hosted learning service.
+1. Install the Uptime Academy plugin in Cursor and enable its `uptime-academy` MCP server.
+2. Connect Uptime using Cursor's native server authentication controls, then complete Uptime sign-in in the browser.
+3. Return to Cursor and ask your learning question. Academy confirms access before starting coaching.
+
+Never paste a password, code or token into chat. If authentication fails, reconnect using the controls Cursor shows. This package connects to Uptime's hosted learning service. Installation alone does not sign you in.
 
 Try:
 
