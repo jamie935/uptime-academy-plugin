@@ -4,6 +4,15 @@
 
 The earlier local package completed Uptime OAuth sign-in and a learning lookup in Cursor. Its interactive `show_hack_cards` response failed with “Unsupported UI resource type”. Version 1.0.1 replaces interactive Hack-card calls with Markdown recommendations.
 
+## Version 1.0.2 connection correction — 21 October 2026
+
+Version 1.0.2 adds connection-before-coaching guidance, three setup steps and
+learner-facing privacy wording without internal worker or queue names. Packaged
+instructions remain readable; user/workspace files remain outside the learning
+workflow. The hosted endpoint and Markdown recommendation approach are unchanged.
+No fresh-recipient or model retest was run for this correction. The live evidence
+below applies to version 1.0.1, not a completed test of version 1.0.2.
+
 ## Static candidate checks
 
 JSON, referenced package paths, the intended file inventory and absence of obvious credential strings passed local checks. These checks do not establish marketplace acceptance or cover every live behaviour.
