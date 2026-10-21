@@ -28,4 +28,4 @@ Recommendations use Markdown with exact Uptime links and genuine covers returned
 
 ## Licence
 
-The client instructions and configuration are proposed under the [MIT licence](LICENSE). Uptime trademarks and the Uptime logo are excluded from that licence. Remotely served Uptime library material, Hack covers and other content are also excluded and remain subject to their owners' rights and Uptime's terms. The package contains no library corpus.
+The client instructions and configuration are available under the [MIT licence](LICENSE). Uptime trademarks and the Uptime logo are excluded from that licence. Remotely served Uptime library material, Hack covers and other content are also excluded and remain subject to their owners' rights and Uptime's terms. The package contains no library corpus.
