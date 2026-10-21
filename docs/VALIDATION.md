@@ -4,6 +4,52 @@
 
 The earlier local package completed Uptime OAuth sign-in and a learning lookup in Cursor. Its interactive `show_hack_cards` response failed with “Unsupported UI resource type”. Version 1.0.1 replaces interactive Hack-card calls with Markdown recommendations.
 
+## Version 1.0.3 preparation — 21 October 2026
+
+The Cursor candidate uses the exact Academy skill and both references from
+approved source commit `4894d9ec35ea2ec95e26b4e805b239188e385a7c`. The shared
+skill includes native-host cover/link delivery and connection guidance.
+The native Cursor MCP declaration still points to the production endpoint;
+it contains no registered owner app binding or embedded credentials.
+
+Static checks passed: JSON parsing, manifest paths, relative skill references,
+byte-for-byte source parity, unchanged native MCP declaration, an obvious
+credential-pattern scan and `git diff --check`.
+
+### Exact-candidate CLI check
+
+The candidate was loaded with Cursor Agent `v2026.10.19-6bbf2c4`,
+`--plugin-dir /Users/jamestrue/.codex/worktrees/academy-cursor-current` and
+`--model composer-2.5`, from an existing authenticated isolated test workspace.
+The prompt was: “Uptime Academy: What can I learn from Atomic Habits?”
+Cursor visibly read this candidate's `skills/academy/SKILL.md`.
+
+It called the existing test server's `learning_brief` with
+`reference_title: "Atomic Habits"`, followed by `show_hack_cards` for the selected
+Hack. Each call was approved using **Run (once)**. No force, automatic MCP
+approval or persistent tool allowlist was used.
+
+The final reply identified Uptime's Atomic Habits teaching, explained the
+cue/craving/response/reward loop and four laws, and gave concrete examples.
+It included Markdown referring to this cover:
+`https://images-na.ssl-images-amazon.com/images/P/0735211299.01._SCLZZZZZZZ_.jpg`
+and this exact Hack link:
+`https://to.uptime.app/OqcSfUPhm7b?$deeplink_path=hack/1300b5d1-c0e2-53bb-8e23-a3c47ecb4893`.
+It ended with an application question about which habit to build next.
+The answer also reused existing authenticated learner context about reading
+for two minutes after brushing teeth; that detail was not supplied in this prompt.
+
+**Proved:** exact candidate skill loading and an authenticated tool-backed
+named-Hack answer containing cover Markdown, a direct link and an application
+question. **Limits:** the existing separately configured MCP connection supplied
+the tools; this does not prove the plugin's own fresh MCP sign-in. Terminal
+output does not prove image rendering. The Hack destination was not opened.
+The extra card call occurred despite the skill's native-host preference for
+using already returned metadata; this run does not establish why it was needed.
+Fresh-recipient installation, native desktop/mobile rendering and marketplace
+approval remain unproved. An initial run from the candidate repository lacked
+the authenticated test namespace and was stopped; it is not passing evidence.
+
 ## Version 1.0.2 connection correction — 21 October 2026
 
 Version 1.0.2 adds connection-before-coaching guidance, three setup steps and
